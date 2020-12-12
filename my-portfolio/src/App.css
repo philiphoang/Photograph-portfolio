@@ -1,38 +1,72 @@
+h1,
+h2,
+p {
+  margin: 0;
+  color: #ff5c65; /* Remove this */
+}
+
+ul {
+  list-style-type: none;
+}
+
 .App {
   text-align: center;
+  height: 2000px;
+  background-color: #222425;
+  color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* HEADER */
+#home {
+  margin-bottom: -4px;
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-container {
+  position: relative;
 }
 
-.App-header {
+#header-img {
+  width: 100%;
+}
+
+#header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+#header-title {
+  font-size: 7vw;
+}
+
+#header-paragraph {
+  font-size: 2vw;
+}
+/* ABOUT */
+#about {
+}
+
+#about-title {
+  font-size: 3vw;
+}
+
+#about-paragraph {
+  padding-top: 25px;
+  font-size: 1.9vw;
+}
+
+.introduction {
+  color: #ff5c65;
+}
+
+/* RESUME */
+#resume {
+}
+
+/* CONTACT */
+#contact {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

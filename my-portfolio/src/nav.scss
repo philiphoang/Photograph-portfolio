@@ -1,0 +1,35 @@
+nav {
+  overflow: hidden;
+  background-color: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    li {
+      display: inline;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 17px;
+      a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px;
+        &:hover {
+          background-color: #111;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.scroll {
+  background-color: #333;
+}
