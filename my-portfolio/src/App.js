@@ -1,11 +1,18 @@
 import React, {Component} from "react";
-import "./profile.scss";
-import "./nav.scss"
-import "./App.css";
+import "./stylesheets/nav.scss"
+import "./stylesheets/App.css";
+import "./stylesheets/About.scss";
+import "./stylesheets/Education.scss";
+import "./stylesheets/Work.scss"
+import "./stylesheets/Skills.scss";
+import "./stylesheets/Projects.scss";
+import "./stylesheets/Footer.scss";
 import Header from "./components/Header";
 import About from "./components/About";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Work from "./components/Work";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
 
@@ -21,7 +28,7 @@ class App extends Component {
   }
 
   handleScroll=()=>{
-    if (window.scrollY > 600) {
+    if (window.scrollY > 600) { //Change the value to either viewport or trigger on section
       if (!this.setState.className) {
         document.querySelector(".nav").className = "nav scroll";
       }
@@ -36,8 +43,10 @@ class App extends Component {
       <div className="App">
         <Header resumeData={resumeData} ref={(r)=>this.ref=r} className={this.state.className}/>
         <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Contact resumeData={resumeData}/>
+        <Education resumeData={resumeData}/>
+        <Work resumeData={resumeData}/>
+        <Skills resumeData={resumeData}/>
+        <Projects resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
     );

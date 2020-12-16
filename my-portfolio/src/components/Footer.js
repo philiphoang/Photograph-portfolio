@@ -5,14 +5,15 @@ export default class Footer extends Component {
         let resumeData = this.props.resumeData;
         return (
             <footer>
-                <div className="row">
-                    <div className="twelve columns">
+                    <div className="social">
+                        <h2>Socials</h2>
                         <ul className="social-links">
                             {resumeData.socialLinks && resumeData.socialLinks.map((item) =>{
                                 return(
                                     <li>
                                         <a href={item.url}>
                                             <i className={item.className} />
+                                            <img src={item.imgsrc}/>
                                         </a>
                                     </li>
                                 );
@@ -24,7 +25,6 @@ export default class Footer extends Component {
                             <i className="icon-up-open"/>
                         </a>
                     </div>
-                </div>
             </footer>
         );
     }

@@ -5,13 +5,43 @@ p {
   color: #ff5c65; /* Remove this */
 }
 
+p {
+  font-size: 1.9vw;
+}
+
 ul {
   list-style-type: none;
 }
 
+/*---SCROLLBAR START--- (Probably put in separate file*/ 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff5c65;
+
+}
+/*---SCROLLBAR END---*/
+
 .App {
   text-align: center;
-  height: 2000px;
   background-color: #222425;
   color: aliceblue;
 }
@@ -44,26 +74,6 @@ ul {
 
 #header-paragraph {
   font-size: 2vw;
-}
-/* ABOUT */
-#about {
-}
-
-#about-title {
-  font-size: 3vw;
-}
-
-#about-paragraph {
-  padding-top: 25px;
-  font-size: 1.9vw;
-}
-
-.introduction {
-  color: #ff5c65;
-}
-
-/* RESUME */
-#resume {
 }
 
 /* CONTACT */

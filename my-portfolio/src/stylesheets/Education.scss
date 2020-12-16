@@ -1,0 +1,48 @@
+#education {
+    // background-color: #5E6C73;
+
+}
+
+.education_section {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.education_section::-webkit-scrollbar {
+    height: 5px;
+    background: #555; 
+  }
+
+/* Track */
+.education_section::-webkit-scrollbar-track {
+    background-color: white;
+}
+  
+.education_section::-webkit-scrollbar-track-piece {
+    display: none;
+}
+   
+/* Handle */
+.education_section::-webkit-scrollbar-thumb {
+    opacity: 0;
+  
+}
+  
+/* Handle on hover */
+.education_section::-webkit-scrollbar-thumb:hover {
+    background-color: #ff5c65;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.education_item {
+    padding: 30px;
+}
