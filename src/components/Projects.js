@@ -52,6 +52,7 @@ export default class Projects extends Component {
                             This project were build under the course INF219 Informatic project with a total of three students.
                         </p>
                     </div>
+                    <h1>HELLO WORLD</h1>
                     <div class="project3-image">
                         <img src={project3.imageurl}/>
                     </div>
