@@ -1,5 +1,5 @@
 {
-  "homepage": "http://philiphoang.no/",
+  "homepage": "https://philiphoang.github.no/Portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
