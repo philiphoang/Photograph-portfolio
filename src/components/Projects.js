@@ -10,7 +10,7 @@ export default class Projects extends Component {
             <section id="projects">
                 <h1>Projects</h1>
                 <div id="project1">
-                    <div class="project1-text">
+                    <div className="project1-text">
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>
                         <p>
@@ -23,12 +23,12 @@ export default class Projects extends Component {
 
                         </p>
                     </div>
-                    <img src={project1.imageurl}/>
+                    <img src={project1.imageurl} alt=""/>
 
                 </div>
                 <div id="project2">
-                    <img src={project2.imageurl}/>
-                    <div class="project2-text">
+                    <img src={project2.imageurl} alt=""/>
+                    <div className="project2-text">
                         <h3>{project2.name}</h3>
                         <h4>{project2.subtitle}</h4>
 
@@ -42,7 +42,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div id="project3">
-                    <div class="project3-text">
+                    <div className="project3-text">
                         <h3>{project3.name}</h3>
                         <h4>{project3.subtitle}</h4>
                         <p>
@@ -52,9 +52,8 @@ export default class Projects extends Component {
                             This project were build under the course INF219 Informatic project with a total of three students.
                         </p>
                     </div>
-                    <h1>HELLO WORLD</h1>
-                    <div class="project3-image">
-                        <img src={project3.imageurl}/>
+                    <div className="project3-image">
+                        <img src={project3.imageurl} alt=""/>
                     </div>
                 </div>
 

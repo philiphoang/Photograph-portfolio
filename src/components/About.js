@@ -2,14 +2,14 @@ import React, {Component} from "react";
 
 export default class About extends Component {
     render () {
-        let resumeData = this.props.resumeData;
+        let resumeData = this.props.resumeData; 
 
         return (
             <section id="about">
                 <div className="row">
                     <div className="nine columns main-col">
                         <div className="profile">
-                            <img id="profile-pic" src="images/profile.jpg" alt="" />
+                            <img id="profile-pic" src={resumeData.profileImage} alt="" />
                         </div>
                         <p id="about-paragraph">      
                             Currently a Masters student at University of Bergen and pursuing my master in <br></br> Media and Interaction Design. 

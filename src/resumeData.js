@@ -1,27 +1,39 @@
+import headerImage from "./assets/headerimage.jpg";
+import instagramIcon from "./assets/instagram.png";
+import linkedinIcon from "./assets/linkedin.png";
+import githubIcon from "./assets/github.png";
+import profileImage from "./assets/profile.png";
+import TalkieImage from "./assets/Talkie.png";
+import TangyImage from "./assets/Tangy.png";
+import algovis from "./assets/mergesort.png";
+
+
 let resumeData = {
+    "headerImage": headerImage,
     "imagebaseurl":"https://github.com/philiphoang",
     "name": "Philip",
     "role": "Developer",
     "linkedinId": "",
     "roleDescription": "I like to learn and create applications in various parts of software development and like to learn about new technologies!",
+    "profileImage":profileImage,
     "socialLinks": [
         {
             "name":"linkedin",
             "url":"https://www.linkedin.com/in/philip-hoang-7a50b2181/",
             "className":"linkedin",
-            "imgsrc":"images/linkedin.png"
+            "imgsrc": linkedinIcon
         },
         {
             "name":"github",
             "url":"https://github.com/philiphoang",
             "className":"github",
-            "imgsrc":"images/github.png"
+            "imgsrc":githubIcon
         },
         {
             "name":"instagram",
             "url":"https://instagram.com/philipoth",
             "className":"instagram",
-            "imgsrc":"images/instagram.png"
+            "imgsrc":instagramIcon
         }
     ],
     "aboutMe":"I am currently a Masters student at University of Bergen and pursuing my master in Media and Interaction Design. I have knowledge in backend-developing from my bachelordegree, currently diving into the frontend-developing world.",
@@ -74,7 +86,7 @@ let resumeData = {
             "YearOfLeaving":"2018"
         }
     ],
-    "skillsDescription":"Hello World",
+    "skillsDescription":"",
     "skills":[
         {
             "skillname":"Python"
@@ -102,19 +114,19 @@ let resumeData = {
     {
         "name":"Talkie",
         "subtitle":"A social child interviewing robot",
-        "imageurl":"images/Talkie.png"
+        "imageurl":TalkieImage
     },
     "project2":
     {
         "name":"Tangy",
         "subtitle":"A persistent wellbeing coach",
-        "imageurl":"images/Tangy.png"
+        "imageurl":TangyImage
     },
     "project3":
     {
         "name":"Visualization of algorithms and datastructures",
         "subtitle":"A visualization tool for different algorithms",
-        "imageurl":"images/InsertionSort.png"
+        "imageurl":algovis
     }
         
 }

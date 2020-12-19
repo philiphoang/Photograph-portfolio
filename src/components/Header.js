@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 export default class Header extends Component {
     render() {
-        let resumeData = this.props.resumeData;
+        let resumeData = this.props.resumeData; 
         return (
             <React.Fragment>
                 <header id="home">
@@ -19,8 +19,8 @@ export default class Header extends Component {
                         </ul>
                     </nav>
                     
-                    <div class="header-container">
-                        <img id="header-img" src="images/john-towner-JgOeRuGD_Y4-unsplash.jpg"/> 
+                    <div className="header-container">
+                        <img id="header-img" src={resumeData.headerImage} alt=""/> 
                         <div id="header-text">
                             <h1 id="header-title">I am Philip.</h1>
                             <br></br><br></br>

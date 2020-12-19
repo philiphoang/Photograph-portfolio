@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-export default class Resume extends Component {
+export default class Skills extends Component {
     render() {
         let resumeData = this.props.resumeData;
         return (
@@ -12,11 +12,13 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                         <div className="skills-section">
                             <ul className="ul-skills">
-                                {resumeData.skills && resumeData.skills.map((item) => {
+                                {resumeData.skills && resumeData.skills.map((item, index) => {
                                     return (
-                                        <li>
-                                            <span className="{`bar-expand $(item.skillname.toLowerCase()}`}"></span><em>{item.skillname}</em>
-                                        </li>
+                                        <div key={index}>
+                                            <li>
+                                                <span className="{`bar-expand $(item.skillname.toLowerCase()}`}"></span><em>{item.skillname}</em>
+                                            </li>
+                                        </div>
                                     );
                                 })}
                             </ul>

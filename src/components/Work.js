@@ -11,9 +11,9 @@ export default class Work extends Component {
                     <h1>Work Experience</h1>
                 </div>
                 <div className="work-section">
-                    {resumeData.work && resumeData.work.map((item)=> {
+                    {resumeData.work && resumeData.work.map((item, index)=> {
                         return (
-                            <div className="work-item">
+                            <div className="work-item" key={index}>
                                 <h3>{item.CompanyName}</h3>
                                 <p className="info">
                                     {item.specialization}

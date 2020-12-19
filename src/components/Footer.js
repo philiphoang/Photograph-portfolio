@@ -8,14 +8,16 @@ export default class Footer extends Component {
                     <div className="social">
                         <h2>Socials</h2>
                         <ul className="social-links">
-                            {resumeData.socialLinks && resumeData.socialLinks.map((item) =>{
+                            {resumeData.socialLinks && resumeData.socialLinks.map((item, index) =>{
                                 return(
-                                    <li>
-                                        <a href={item.url}>
-                                            <i className={item.className} />
-                                            <img src={item.imgsrc}/>
-                                        </a>
-                                    </li>
+                                    <div className="social-item" key={index}>
+                                        <li>
+                                            <a href={item.url}>
+                                                <i className={item.className} />
+                                                <img src={item.imgsrc} alt=""/>
+                                            </a>
+                                        </li>
+                                    </div>
                                 );
                             })}
                         </ul>
