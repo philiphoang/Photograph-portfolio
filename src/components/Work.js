@@ -7,24 +7,24 @@ export default class Work extends Component {
 
         return (
             <section id="work">
-                <div className="work-row">
-                    <h1>Work Experience</h1>
-                </div>
+                <h1 id="work-title">Work Experience</h1>
                 <div className="work-section">
-                    {resumeData.work && resumeData.work.map((item, index)=> {
-                        return (
-                            <div className="work-item" key={index}>
-                                <h3>{item.CompanyName}</h3>
-                                <p className="info">
-                                    {item.specialization}
-                                <span>&bull;</span> 
-                                    <em className="data">
-                                        {item.MonthOfStarting} {item.YearOfStarting} - {item.MonthOfLeaving} {item.YearOfLeaving}
-                                    </em>
-                                </p>
-                            </div>
-                        );
-                    })}
+                    <div className="work-row">
+                        {resumeData.work && resumeData.work.map((item, index)=> {
+                            return (
+                                <div className="work-item" key={index}>
+                                    <h3>{item.CompanyName}</h3>
+                                    <p className="info">
+                                        {item.specialization}
+                                    <span>&bull;</span> 
+                                        <em className="data">
+                                            {item.MonthOfStarting} {item.YearOfStarting} - {item.MonthOfLeaving} {item.YearOfLeaving}
+                                        </em>
+                                    </p>
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
             </section>
         );

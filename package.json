@@ -1,6 +1,7 @@
 {
-  "homepage": "https://philiphoang.github.io/Philip-portfolio/",
+  "homepage": "https://philiphoang.no/",
   "name": "my-portfolio",
+  "displayName": "Philip's portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

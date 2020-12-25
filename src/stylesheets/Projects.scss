@@ -1,5 +1,4 @@
 #project1 {
-    display: flex;
 }
 
 .project1-text {
@@ -11,7 +10,6 @@
 }
 
 #project2 {
-    display: flex;
     padding-top: 100px;
 }
 
@@ -20,16 +18,14 @@
 }
 
 #project3 {
-    display: flex;
     padding-top: 50px;
 }
 
 .project3-image {
     padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 120px;
+
     img {
-        width: 130%;
+        width: 50%;
     }
 }
 

@@ -8,9 +8,11 @@ export default class Projects extends Component {
         let project3 = resumeData.project3;
         return (
             <section id="projects">
-                <h1>Projects</h1>
+                <h1>Selected Projects</h1>
                 <div id="project1">
                     <div className="project1-text">
+                        <img src={project1.imageurl} alt=""/>
+
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>
                         <p>
@@ -23,10 +25,9 @@ export default class Projects extends Component {
 
                         </p>
                     </div>
-                    <img src={project1.imageurl} alt=""/>
 
                 </div>
-                <div id="project2">
+                {/* <div id="project2">
                     <img src={project2.imageurl} alt=""/>
                     <div className="project2-text">
                         <h3>{project2.name}</h3>
@@ -42,6 +43,9 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div id="project3">
+                <   div className="project3-image">
+                        <img src={project3.imageurl} alt=""/>
+                    </div>
                     <div className="project3-text">
                         <h3>{project3.name}</h3>
                         <h4>{project3.subtitle}</h4>
@@ -52,10 +56,8 @@ export default class Projects extends Component {
                             This project were build under the course INF219 Informatic project with a total of three students.
                         </p>
                     </div>
-                    <div className="project3-image">
-                        <img src={project3.imageurl} alt=""/>
-                    </div>
-                </div>
+                 
+                </div> */}
 
             </section>
         );

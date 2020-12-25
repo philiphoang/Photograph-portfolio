@@ -62,14 +62,6 @@ let resumeData = {
     ],
     "work": [
         {
-            "CompanyName":"University in Bergen",
-            "specialization":"Teaching Assistent",
-            "MonthOfStarting":"January",
-            "YearOfStarting":"2019",
-            "MonthOfLeaving":"June",
-            "YearOfLeaving":"2019"
-        },
-        {
             "CompanyName":"Høgskolen på Vestlandet",
             "specialization":"Lab Assistent",
             "MonthOfStarting":"August",
@@ -77,6 +69,15 @@ let resumeData = {
             "MonthOfLeaving":"December",
             "YearOfLeaving":"2019"
         },
+        {
+            "CompanyName":"University in Bergen",
+            "specialization":"Teaching Assistent",
+            "MonthOfStarting":"January",
+            "YearOfStarting":"2019",
+            "MonthOfLeaving":"June",
+            "YearOfLeaving":"2019"
+        },
+        
         {
             "CompanyName":"Deli de Luca",
             "specialization":"Shop employee",
@@ -89,25 +90,33 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
         {
-            "skillname":"Python"
+            "skillname":"Python",
+            "level": 3
         },
         {
-            "skillname":"Java"
+            "skillname":"Java",
+            "level": 4
         },
         {
-            "skillname":"Javascript"
+            "skillname":"Javascript",
+            "level": 3
         },
         {
-            "skillname":"HTML5"
+            "skillname":"HTML5",
+            "level": 5
         },
         {
-            "skillname":"CSS"
+            "skillname":"CSS",
+            "level": 3
+
         },
         {
-            "skillname":"Reactjs"
+            "skillname":"Reactjs",
+            "level": 2
         }, 
         {
-            "skillname":"SQL"
+            "skillname":"SQL",
+            "level": 1
         },
     ],
     "project1": 

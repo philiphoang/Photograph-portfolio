@@ -1,18 +1,28 @@
 #skills {
-    
+padding-bottom: 50px;
 }
 
-.skills-section {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+#skills-section ul {
 }
 
-.ul-skills {
-    display: flex;
-
-    li {
-        padding-right: 35px;
-    }
+#skills-section ul li {
+padding-top: 50px;
 }
+
+
+
+.skillName {
+    float: left;
+    width: 10%;
+    padding-right: 30px;
+}
+
+.progressBar {
+    float:left;
+    width: 10%;
+    height: 0.75em;
+    border: 0.125em solid darken(#3f3f3f, 3);
+    border-radius: 10px;
+}
+
+/*Try to use SCSS Mixin to fill the progressbar*/
