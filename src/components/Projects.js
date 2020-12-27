@@ -1,4 +1,17 @@
 import React, {Component} from "react";
+import ImageGallery from "react-image-gallery";
+
+
+const images = [
+    {
+        original: "headerimage.jpg",
+        thumbnail: "headerimage.jpg" 
+    },
+    // {
+    //     original:,
+    //     thumbnail:
+    // }
+];
 
 export default class Projects extends Component {
     render() {
@@ -11,7 +24,8 @@ export default class Projects extends Component {
                 <h1>Selected Projects</h1>
                 <div id="project1">
                     <div className="project1-text">
-                        <img src={project1.imageurl} alt=""/>
+
+                        <ImageGallery items={images}/>
 
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>

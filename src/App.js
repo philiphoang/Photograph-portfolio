@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+
 import "./stylesheets/nav.scss"
 import "./stylesheets/App.css";
 import "./stylesheets/About.scss";
@@ -7,6 +8,9 @@ import "./stylesheets/Work.scss"
 import "./stylesheets/Skills.scss";
 import "./stylesheets/Projects.scss";
 import "./stylesheets/Footer.scss";
+
+import "./stylesheets/Slideshow.scss";
+
 import Header from "./components/Header";
 import About from "./components/About";
 import Education from "./components/Education";
