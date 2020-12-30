@@ -1,17 +1,28 @@
 import React, {Component} from "react";
 
+import TalkieImage from "../assets/Project-Talkie/Talkie-Horizontal.png";
+import TalkieImageThumbnail from "../assets/Project-Talkie/Talkie-Horizontal-thumbnail.png";
+
+import PhilipandTalkie from "../assets/Project-Talkie/PhilipandTalkie.jpg";
+import PhilipandTalkieThumbnail from "../assets/Project-Talkie/PhilipandTalkie-thumbnail.jpg";
+
+import WorkingPhilip from "../assets/Project-Talkie/WorkingPhilip.jpg";
+import WorkingPhilipThumbnail from "../assets/Project-Talkie/WorkingPhilip.jpg";
+
+
 export default class Projects extends Component {
+
     render() {
         let resumeData = this.props.resumeData;
         let project1 = resumeData.project1;
         let project2 = resumeData.project2;
         let project3 = resumeData.project3;
+
         return (
             <section id="projects">
                 <h1>Selected Projects</h1>
                 <div id="project1">
                     <div className="project1-text">
-                        <img src={project1.imageurl} alt=""/>
 
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>
@@ -24,6 +35,18 @@ export default class Projects extends Component {
                             This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.
 
                         </p>
+                        <p>Keywords: </p>
+                        <div className="project-keywords-div">
+                            <ul className="project-keywords-list">
+                            {project1.keywords && project1.keywords.map((item) => {
+                                return (
+                                    <li>
+                                        <span className="each-keyword">{item}</span>
+                                        </li>
+                                )
+                            })}
+                        </ul>
+                        </div>
                     </div>
 
                 </div>

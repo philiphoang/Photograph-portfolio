@@ -1,10 +1,14 @@
-import headerImage from "./assets/headerimage.jpg";
+import headerImage from "./assets/headerimage-min.jpg";
 import instagramIcon from "./assets/instagram.png";
 import linkedinIcon from "./assets/linkedin.png";
 import githubIcon from "./assets/github.png";
 import profileImage from "./assets/profile.png";
-import TalkieImage from "./assets/Talkie.png";
+
+import TalkieImage from "./assets/Project-Talkie/Talkie-Horizontal.png";
+import PhilipandTalkie from "./assets/Project-Talkie/PhilipandTalkie.jpg";
+
 import TangyImage from "./assets/Tangy.png";
+
 import algovis from "./assets/mergesort.png";
 
 
@@ -13,7 +17,6 @@ let resumeData = {
     "imagebaseurl":"https://github.com/philiphoang",
     "name": "Philip",
     "role": "Developer",
-    "linkedinId": "",
     "roleDescription": "I like to learn and create applications in various parts of software development and like to learn about new technologies!",
     "profileImage":profileImage,
     "socialLinks": [
@@ -123,7 +126,8 @@ let resumeData = {
     {
         "name":"Talkie",
         "subtitle":"A social child interviewing robot",
-        "imageurl":TalkieImage
+        "keywords": ["MIX301", "High-fidelity", "Provocative","Prototype", "AI", "Social", "Robot","PadBot", "Android", "AndroidStudio", "Python", "Java", "XML"],
+        "images": [TalkieImage, PhilipandTalkie]
     },
     "project2":
     {
