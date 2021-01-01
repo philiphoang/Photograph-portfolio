@@ -4,7 +4,7 @@ import linkedinIcon from "./assets/linkedin.png";
 import githubIcon from "./assets/github.png";
 import profileImage from "./assets/profile.png";
 
-import TalkieImage from "./assets/Project-Talkie/Talkie-Horizontal.png";
+import TalkieImage from "./assets/Project-Talkie/Talkie.png";
 import PhilipandTalkie from "./assets/Project-Talkie/PhilipandTalkie.jpg";
 
 import TangyImage from "./assets/Tangy.png";
@@ -126,7 +126,7 @@ let resumeData = {
     {
         "name":"Talkie",
         "subtitle":"A social child interviewing robot",
-        "keywords": ["MIX301", "High-fidelity", "Provocative","Prototype", "AI", "Social", "Robot","PadBot", "Android", "AndroidStudio", "Python", "Java", "XML"],
+        "keywords": ["MIX301", "High-fidelity", "Provotype", "AI", "Social", "Robot","PadBot"],
         "images": [TalkieImage, PhilipandTalkie]
     },
     "project2":
