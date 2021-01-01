@@ -1,17 +1,7 @@
 import React, {Component} from "react";
-import ImageGallery from "react-image-gallery";
 
+import TalkieHorizontal from "../assets/Project-Talkie/Talkie-Horizontal.png";
 
-const images = [
-    {
-        original: "headerimage.jpg",
-        thumbnail: "headerimage.jpg" 
-    },
-    // {
-    //     original:,
-    //     thumbnail:
-    // }
-];
 
 export default class Projects extends Component {
     render() {
@@ -24,9 +14,7 @@ export default class Projects extends Component {
                 <h1>Selected Projects</h1>
                 <div id="project1">
                     <div className="project1-text">
-
-                        <ImageGallery items={images}/>
-
+                        <img src={TalkieHorizontal}/>
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>
                         <p>

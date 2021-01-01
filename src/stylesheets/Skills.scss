@@ -14,7 +14,11 @@ padding-top: 50px;
 .skillName {
     float: left;
     width: 10%;
-    padding-right: 70px;
+    padding-right: 100px;
+}
+
+.progressBar-wrapper {
+    padding-top: 5px;
 }
 
 .progressBar {
@@ -25,4 +29,13 @@ padding-top: 50px;
     border-radius: 10px;
 }
 
-/*Try to use SCSS Mixin to fill the progressbar*/
+.progressBar-with-bg {
+    float:left;
+    width: 10%;
+    height: 0.75em;
+    border: 0.125em solid darken(#3f3f3f, 3);
+    border-radius: 10px;
+    background-color: #ff5c65;
+}
+
+
