@@ -1,20 +1,65 @@
 import React, {Component} from "react";
 
 import TalkieHorizontal from "../assets/Project-Talkie/Talkie-Horizontal.png";
+import PhilipandTalkie1 from "../assets/Project-Talkie/PhilipandTalkie1.jpg";
+import PhilipandTalkie2 from "../assets/Project-Talkie/PhilipandTalkie2.JPG";
+import WorkingPhilip from "../assets/Project-Talkie/WorkingPhilip.jpg";
 
 
 export default class Projects extends Component {
+    constructor() {
+        super();
+        this.expandImage = this.expandImage.bind(this);
+    }
+
+    
+
+    expandImage = (imgs) => {
+        console.log("Clicked");
+        console.log(imgs.src);
+
+        var expandingImg = document.getElementById("expandedImage");
+        console.log(expandingImg)
+
+        expandingImg.src = imgs;
+
+        expandingImg.parentElement.style.display = "block";
+    }
+
     render() {
         let resumeData = this.props.resumeData;
         let project1 = resumeData.project1;
-        let project2 = resumeData.project2;
-        let project3 = resumeData.project3;
+        // let project2 = resumeData.project2;
+        // let project3 = resumeData.project3;
         return (
             <section id="projects">
                 <h1>Selected Projects</h1>
                 <div id="project1">
+
+                    <div className="container-gallery">
+                        <img src={TalkieHorizontal} id="expandedImage"/>
+                    </div>
+
+                    {/* Thumbnails */}
+                    <div className="row-gallery">
+
+                        <div className="column-gallery">
+                            <img src={TalkieHorizontal} alt="" onClick={()=> this.expandImage(TalkieHorizontal)}/>
+                        </div>
+                        <div className="column-gallery">
+                            <img src={PhilipandTalkie1} alt="" onClick={()=> this.expandImage(PhilipandTalkie1)}/>
+                        </div>
+                        <div className="column-gallery">
+                            <img src={PhilipandTalkie2} alt="" onClick={()=> this.expandImage(PhilipandTalkie2)}/>
+                        </div>
+                        <div className="column-gallery">
+                            <img src={WorkingPhilip} alt="" onClick={()=> this.expandImage(WorkingPhilip)}/>
+                        </div>
+                        
+                    </div>
+
+
                     <div className="project1-text">
-                        <img src={TalkieHorizontal}/>
                         <h3>{project1.name}</h3>
                         <h4>{project1.subtitle}</h4>
                         <p>
@@ -23,9 +68,20 @@ export default class Projects extends Component {
                             Making Talkie interactive establish trust between Talkie and the child, and make sure the child stays interested and engaged in the conversation.
                             With Converational Artificial Intelligence, Talkie is able to learn and adapt to different topics and conversations. 
                             Talkie also has an emotion system and is able to express a range of emotions with both its facial expressions, movements and verbally. 
-                            This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.
-
+                            This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.                            
                         </p>
+                        
+                        <ul className="project1-keywords"> 
+                           {project1.keywords.map((item, index) => {
+                               return (
+                                   <div key={index}>
+                                       <li>
+                                           {item}
+                                       </li>
+                                   </div>
+                               )
+                           })} 
+                        </ul>
                     </div>
 
                 </div>

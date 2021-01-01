@@ -4,14 +4,6 @@ import linkedinIcon from "./assets/linkedin.png";
 import githubIcon from "./assets/github.png";
 import profileImage from "./assets/profile.png";
 
-import TalkieImage from "./assets/Project-Talkie/Talkie.png";
-import PhilipandTalkie from "./assets/Project-Talkie/PhilipandTalkie.jpg";
-
-import TangyImage from "./assets/Tangy.png";
-
-import algovis from "./assets/mergesort.png";
-
-
 let resumeData = {
     "headerImage": headerImage,
     "imagebaseurl":"https://github.com/philiphoang",
@@ -106,7 +98,7 @@ let resumeData = {
         },
         {
             "skillname":"HTML5",
-            "level": 5
+            "level": 3
         },
         {
             "skillname":"CSS",
@@ -115,7 +107,7 @@ let resumeData = {
         },
         {
             "skillname":"Reactjs",
-            "level": 2
+            "level": 1
         }, 
         {
             "skillname":"SQL",
@@ -126,20 +118,17 @@ let resumeData = {
     {
         "name":"Talkie",
         "subtitle":"A social child interviewing robot",
-        "keywords": ["MIX301", "High-fidelity", "Provotype", "AI", "Social", "Robot","PadBot"],
-        "images": [TalkieImage, PhilipandTalkie]
+        "keywords": ["UiB", "MIX301", "Prototype", "Social", "Robot", "AI", "Android", "Python", "Java"]
     },
     "project2":
     {
         "name":"Tangy",
         "subtitle":"A persistent wellbeing coach",
-        "imageurl":TangyImage
     },
     "project3":
     {
         "name":"Visualization of algorithms and datastructures",
         "subtitle":"A visualization tool for different algorithms",
-        "imageurl":algovis
     }
         
 }

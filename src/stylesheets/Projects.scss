@@ -1,5 +1,5 @@
-#projects-title {
-    padding-bottom: 50px;
+#projects h1 {
+    padding-bottom: 25px;
 }
 
 #project1 {
@@ -10,9 +10,7 @@
     
 }
 
-#project1 img {
-    width: 30%;
-}
+
 
 #project2 {
     padding-top: 100px;
@@ -34,4 +32,33 @@
     }
 }
 
+.column-gallery {
+    float:right;
+    float:left;
+    width: 25%;
+    padding-top: 20px;
+}
 
+.column-gallery img {
+    width: 50%;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.column-gallery img:hover {
+    opacity: 1;
+}
+
+.row-gallery:after {
+    content: ""; /* content inserts the valye of the href attribute after <a> element */
+    display: table;
+    clear: both;
+}
+
+.container-gallery {
+    position: relative;
+}
+
+.container-gallery img {
+    width: 50%;
+}
