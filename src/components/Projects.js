@@ -35,6 +35,9 @@ export default class Projects extends Component {
             <section id="projects">
                 <h1>Selected Projects</h1>
                 <div id="project1">
+                    
+                    <h3>{project1.name}</h3>
+                    <h4>{project1.subtitle}</h4>
 
                     <div className="container-gallery">
                         <img src={TalkieHorizontal} id="expandedImage"/>
@@ -58,19 +61,15 @@ export default class Projects extends Component {
                         
                     </div>
 
-
                     <div className="project1-text">
-                        <h3>{project1.name}</h3>
-                        <h4>{project1.subtitle}</h4>
                         <p>
                             Talkie is a social interview robot that interacts and engages a conversation with children. 
                             Talkie is small, cute and toylike. Talkie can show images and videos on the screen and play music that is relevant to their conversation. 
                             Making Talkie interactive establish trust between Talkie and the child, and make sure the child stays interested and engaged in the conversation.
-                            With Converational Artificial Intelligence, Talkie is able to learn and adapt to different topics and conversations. 
+                            With Converational AI, Talkie is able to learn and adapt to different topics and conversations. 
                             Talkie also has an emotion system and is able to express a range of emotions with both its facial expressions, movements and verbally. 
                             This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.                            
-                        </p>
-                        
+                        </p>         
                         <ul className="project1-keywords"> 
                            {project1.keywords.map((item, index) => {
                                return (

@@ -7,7 +7,7 @@
 
 
 .project1-text {
-    
+    padding-top: 25px;
 }
 
 
@@ -33,7 +33,6 @@
 }
 
 .column-gallery {
-    float:right;
     float:left;
     width: 25%;
     padding-top: 20px;
@@ -49,6 +48,7 @@
     opacity: 1;
 }
 
+/* Clear floats after image containers */
 .row-gallery:after {
     content: ""; /* content inserts the valye of the href attribute after <a> element */
     display: table;

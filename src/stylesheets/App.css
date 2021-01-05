@@ -1,10 +1,19 @@
-h1,h2,h3,h4 {
-  color: #ff5c65; /* Remove this */
+h1, h2, h3, h4 {
+  color: #ff5c65; 
+
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2,h3,h4 {
+  font-size: 2vw;
 }
 
 p {
   margin: 0;
-  font-size: 1.9vw;
+  font-size: 1.7vw;
 }
 
 ul {
