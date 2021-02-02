@@ -13,6 +13,9 @@ export default class Work extends Component {
                         {resumeData.work && resumeData.work.map((item, index)=> {
                             return (
                                 <div className="work-item" key={index}>
+                                    <div className="work-image-container">
+                                        <img className="work-image" src={item.WorkIcon}/>
+                                    </div>
                                     <h3>{item.CompanyName}</h3>
                                     <p className="info">
                                         {item.specialization}

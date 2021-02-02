@@ -1,21 +1,24 @@
 .social {
-
-
+  margin: 0 auto;
 }
 
-.social-wrapper {
+.social-container {
+  display: inline;
 }
 
 .social-ul {
-    margin: 0 auto;
-    display:flex;
-
-    li {
-
-        img {
-            width: 5vw;
-            height: 5vw;
-        }
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  li {
+    padding-top: 10px;
+    display: inline;
+    img {
+      width: 5vw;
+      height: 5vw;
     }
+  }
+}
 
+.social-items {
 }

@@ -11,11 +11,14 @@ export default class Education extends Component {
                         </h1>
                     </div>
                     <div className="education_section">
-                        <div className="education-row">
+                        <div className="education_row">
                             {resumeData.education && resumeData.education.map((item, index) => {
                                 return (
                                     <div className="row item" key={index}>
                                         <div className="education_item">
+                                            <div className="education_image_container">
+                                                <img className="education_image" src={item.EducationIcon}/>
+                                            </div>
                                             <h3>{item.UniversityName}</h3>
                                             <p className="info">
                                                 {item.specialization}

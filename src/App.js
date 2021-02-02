@@ -9,6 +9,8 @@ import "./stylesheets/Skills.scss";
 import "./stylesheets/Projects.scss";
 import "./stylesheets/Footer.scss";
 
+
+import "./stylesheets/InstagramFeed.scss";
 import "./stylesheets/Slideshow.scss";
 
 import Header from "./components/Header";
@@ -17,6 +19,7 @@ import Education from "./components/Education";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import InstagramFeed from "./components/InstagramFeed";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
 
@@ -51,6 +54,7 @@ class App extends Component {
         <Work resumeData={resumeData}/>
         <Skills resumeData={resumeData}/>
         <Projects resumeData={resumeData}/>
+        <InstagramFeed />
         <Footer resumeData={resumeData}/>
       </div>
     );

@@ -1,42 +1,50 @@
 #skills {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #skills-section ul {
 }
 
 #skills-section ul li {
-padding-top: 50px;
+  padding-top: 50px;
 }
 
-
-
 .skillName {
-    float: left;
-    width: 10%;
-    padding-right: 100px;
+  float: left;
+  width: 10%;
+  padding-right: 50px;
+  padding-left: 30px;
 }
 
 .progressBar-wrapper {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .progressBar {
-    float:left;
-    width: 10%;
-    height: 0.75em;
-    border: 0.125em solid darken(#3f3f3f, 3);
-    border-radius: 10px;
+  float: left;
+  width: 10%;
+  height: 0.75em;
+  border: 0.125em solid darken(#3f3f3f, 3);
+  border-radius: 10px;
 }
 
 .progressBar-with-bg {
-    float:left;
-    width: 10%;
-    height: 0.75em;
-    border: 0.125em solid darken(#3f3f3f, 3);
-    border-radius: 10px;
-    background-color: #ff5c65;
+  float: left;
+  width: 10%;
+  height: 0.75em;
+  border: 0.125em solid darken(#3f3f3f, 3);
+  border-radius: 10px;
+  background-color: #ff5c65;
 }
 
+.skill_logo_container {
+  width: 10px;
+  height: 10px;
+}
 
+.skill_image {
+  padding-top: 10px;
+
+  width: 2vw;
+}

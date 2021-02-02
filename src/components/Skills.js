@@ -38,6 +38,9 @@ export default class Skills extends Component {
                                 return (
                                     <div key={index}>
                                         <li>
+                                            <div className="skill_logo_container">
+                                                <img className="skill_image" src={item.skillogo}/>
+                                            </div>
                                             <span className="skillName"> {item.skillname}</span>
                                             {this.createProgressBar(item)}
                                         </li>

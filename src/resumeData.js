@@ -1,8 +1,25 @@
 import headerImage from "./assets/headerimage-min.jpg";
+
+import profileImage from "./assets/profile.png";
+
+//Work and Education Logos/Icons 
 import instagramIcon from "./assets/instagram.png";
 import linkedinIcon from "./assets/linkedin.png";
 import githubIcon from "./assets/github.png";
-import profileImage from "./assets/profile.png";
+import uibIcon from "./assets/uib-ugle_transparent.png";
+import hvlIcon from "./assets/hvl-logo_transparent.png";
+import deliIcon from "./assets/delideluca_transparent.png";
+import vardafjellIcon from "./assets/vardafjell-logo_transparent.png";
+
+//Skill Logos/Icons
+import pythonLogo from "./assets/Skill-logos/python_logo.png";
+import javaLogo from "./assets/Skill-logos/java_logo.png";
+import jsLogo from "./assets/Skill-logos/javascript_logo.png";
+import htmlLogo from "./assets/Skill-logos/html5_logo.png";
+import cssLogo from "./assets/Skill-logos/css3_logo.png";
+import reactLogo from "./assets/Skill-logos/reactjs_logo.png";
+import sqlLogo from "./assets/Skill-logos/sql_logo.png";
+
 
 let resumeData = {
     "headerImage": headerImage,
@@ -37,18 +54,21 @@ let resumeData = {
     "website": "https://github.com/philiphoang",
     "education": [
         {
+            "EducationIcon": uibIcon,
             "UniversityName": "University in Bergen",
             "specialization": "Media and Interaction Design",
             "MonthOfPassing": "June",
             "YearOfPassing": "Currently studying",
         },
         {
+            "EducationIcon": uibIcon,
             "UniversityName": "University in Bergen",
             "specialization": "Computer Technology",
             "MonthOfPassing": "June",
             "YearOfPassing": "2018",
         },
         {
+            "EducationIcon": vardafjellIcon,
             "UniversityName": "Vardafjell Videregåendeskole",
             "specialization": "Studiespesialiserende",
             "MonthOfPassing": "June",
@@ -57,6 +77,16 @@ let resumeData = {
     ],
     "work": [
         {
+            "WorkIcon": uibIcon,
+            "CompanyName":"University in Bergen",
+            "specialization":"Teaching Assistent",
+            "MonthOfStarting":"January",
+            "YearOfStarting":"2021",
+            "MonthOfLeaving":"",
+            "YearOfLeaving":"Currently working"
+        },
+        {
+            "WorkIcon": hvlIcon,
             "CompanyName":"Høgskolen på Vestlandet",
             "specialization":"Lab Assistent",
             "MonthOfStarting":"August",
@@ -65,6 +95,7 @@ let resumeData = {
             "YearOfLeaving":"2019"
         },
         {
+            "WorkIcon": uibIcon,
             "CompanyName":"University in Bergen",
             "specialization":"Teaching Assistent",
             "MonthOfStarting":"January",
@@ -74,6 +105,7 @@ let resumeData = {
         },
         
         {
+            "WorkIcon": deliIcon,
             "CompanyName":"Deli de Luca",
             "specialization":"Shop employee",
             "MonthOfStarting":"July",
@@ -85,31 +117,38 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
         {
+            "skillogo": pythonLogo,
             "skillname":"Python",
             "level": 3
         },
         {
+            "skillogo": javaLogo,
             "skillname":"Java",
             "level": 4
         },
         {
+            "skillogo": jsLogo,
             "skillname":"Javascript",
             "level": 3
         },
         {
+            "skillogo": htmlLogo,
             "skillname":"HTML5",
             "level": 3
         },
         {
+            "skillogo": cssLogo,
             "skillname":"CSS",
             "level": 3
 
         },
         {
+            "skillogo": reactLogo,
             "skillname":"Reactjs",
             "level": 1
         }, 
         {
+            "skillogo": sqlLogo,
             "skillname":"SQL",
             "level": 1
         },

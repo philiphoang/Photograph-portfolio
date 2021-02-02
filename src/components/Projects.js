@@ -71,11 +71,12 @@ export default class Projects extends Component {
                             This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.                            
                         </p>         
                         <ul className="project1-keywords"> 
+                        <p>Keywords: </p>
                            {project1.keywords.map((item, index) => {
                                return (
                                    <div key={index}>
                                        <li>
-                                           {item}
+                                           <p><span>{item}</span></p>
                                        </li>
                                    </div>
                                )

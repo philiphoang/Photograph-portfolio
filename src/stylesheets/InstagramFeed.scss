@@ -1,0 +1,20 @@
+.Feed {
+  margin: auto;
+  padding: 1% 1%;
+}
+
+.Feed a img {
+  margin: 1% 1%;
+  width: 35%;
+
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

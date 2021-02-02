@@ -7,7 +7,7 @@ export default class Footer extends Component {
             <footer>
                     <div className="social">
                         <h2>Socials</h2>
-                        <div className="social-wrapper">
+                        <div className="social-container">
                             <ul className="social-ul">
                                 {resumeData.socialLinks && resumeData.socialLinks.map((item, index) =>{
                                     return(
@@ -24,11 +24,11 @@ export default class Footer extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div id="go-top">
+                    {/* <div id="go-top">
                         <a className="smoothscroll" title="Back to Top" href="#home">
                             <i className="icon-up-open"/>
                         </a>
-                    </div>
+                    </div> */}
             </footer>
         );
     }
