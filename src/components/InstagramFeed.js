@@ -43,7 +43,7 @@ export default class InstagramFeed extends Component {
             <section id="instagramfeed">
                 <h1>My Instagram Feed</h1>
                 <ErrorBoundary>
-                          <Feed userName="instagram" limit="3"/>
+                    <Feed userName="stylipth" limit="3"/>
                 </ErrorBoundary>
             </section>
         );

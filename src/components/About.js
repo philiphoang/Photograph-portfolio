@@ -6,27 +6,18 @@ export default class About extends Component {
 
         return (
             <section id="about">
-                <div className="row">
-                    <div className="nine columns main-col">
-                        <div className="profile">
-                            <img id="profile-pic" src={resumeData.profileImage} alt="" />
-                        </div>
-                        <p id="about-paragraph">      
-                            Currently a Masters student at University of Bergen and pursuing my master in <br></br> Media and Interaction Design. 
-                            I have knowledge in backend-developing from my bachelordegree, and currently diving into the frontend-developing world.
-                            </p>
+                <div className="about-container">
+                    <div className="profile-container">
+                        <img id="profile-pic" src={resumeData.profileImage} alt="" />
                     </div>
-                    {/* <div className="row">
-                        <div className="introduction">
-                            <p className="address">
-                                <span>{resumeData.name}</span>
-                                <br></br>
-                                <span>{resumeData.address}</span>
-                                <br></br>
-                                <span>{resumeData.age}</span>
-                            </p>
-                        </div>
-                    </div> */}
+                    <p id="about-paragraph">      
+                            Currently a <span className="highlight">Masters student</span> at University of Bergen and pursuing my master in Media and Interaction Design.<br/> 
+                            I have knowledge in <span className="highlight">backend-developing</span> from my bachelordegree, <br/>and currently diving into the <span className="highlight">frontend-developing</span> world.
+                    </p>
+                    <p id="about-interests">
+                        I have also artistic interest in <span className="highlight">fashion and style</span>, and a deep passion for <span className="highlight">cooking</span>. <br/>
+                        Check out my <span className="highlight-instagram">Instagram</span> feed further below to see my type of clothing style!
+                    </p>
                 </div>
             </section>
         );

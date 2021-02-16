@@ -30,25 +30,23 @@ export default class Skills extends Component {
 
         return (
             <section id="skills">
-                <div className="row-skill">
-                    <h1><span>Skills</span></h1>
-                    <div id="skills-section">
-                        <ul className="ul-skills">
-                            {resumeData.skills && resumeData.skills.map((item, index) => {
-                                return (
-                                    <div key={index}>
-                                        <li>
-                                            <div className="skill_logo_container">
-                                                <img className="skill_image" src={item.skillogo}/>
-                                            </div>
-                                            <span className="skillName"> {item.skillname}</span>
-                                            {this.createProgressBar(item)}
-                                        </li>
-                                    </div>
-                                );
-                            })}
-                        </ul>
-                    </div>
+                <h1><span>Skills</span></h1>
+                <div id="skills-section">
+                    <ul className="ul-skills">
+                        {resumeData.skills && resumeData.skills.map((item, index) => {
+                            return (
+                                <div key={index}>                                        
+                                    <li>
+                                        <div className="skill_logo_container">
+                                            <img className="skill_image" src={item.skillogo}/>
+                                        </div>
+                                        <span className="skillName"> {item.skillname}</span>
+                                        {this.createProgressBar(item)}
+                                    </li>
+                                </div>
+                            );
+                        })}
+                     </ul>
                 </div>
             </section>
         );

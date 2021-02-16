@@ -1,9 +1,17 @@
 #skills {
   padding-top: 50px;
   padding-bottom: 50px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
 }
 
-#skills-section ul {
+#skills-section {
+  margin: 0 auto;
+  justify-content: center;
 }
 
 #skills-section ul li {
@@ -25,7 +33,7 @@
   float: left;
   width: 10%;
   height: 0.75em;
-  border: 0.125em solid darken(#3f3f3f, 3);
+  border: 0.125em solid darken(#c6cfcb, 3);
   border-radius: 10px;
 }
 
@@ -33,7 +41,7 @@
   float: left;
   width: 10%;
   height: 0.75em;
-  border: 0.125em solid darken(#3f3f3f, 3);
+  border: 0.125em solid darken(#c6cfcbf6, 3);
   border-radius: 10px;
   background-color: #ff5c65;
 }
@@ -46,5 +54,5 @@
 .skill_image {
   padding-top: 10px;
 
-  width: 2vw;
+  width: 22px;
 }

@@ -10,6 +10,7 @@ import uibIcon from "./assets/uib-ugle_transparent.png";
 import hvlIcon from "./assets/hvl-logo_transparent.png";
 import deliIcon from "./assets/delideluca_transparent.png";
 import vardafjellIcon from "./assets/vardafjell-logo_transparent.png";
+import mailIcon from "./assets/mail_icon.png";
 
 //Skill Logos/Icons
 import pythonLogo from "./assets/Skill-logos/python_logo.png";
@@ -46,6 +47,13 @@ let resumeData = {
             "url":"https://instagram.com/philipoth",
             "className":"instagram",
             "imgsrc":instagramIcon
+        }
+        ,
+        {
+            "name":"mail",
+            "url":"mailto: philip.t.hoang",
+            "className":"mail",
+            "imgsrc": mailIcon
         }
     ],
     "aboutMe":"I am currently a Masters student at University of Bergen and pursuing my master in Media and Interaction Design. I have knowledge in backend-developing from my bachelordegree, currently diving into the frontend-developing world.",

@@ -63,12 +63,14 @@ export default class Projects extends Component {
 
                     <div className="project1-text">
                         <p>
-                            Talkie is a social interview robot that interacts and engages a conversation with children. 
-                            Talkie is small, cute and toylike. Talkie can show images and videos on the screen and play music that is relevant to their conversation. 
-                            Making Talkie interactive establish trust between Talkie and the child, and make sure the child stays interested and engaged in the conversation.
-                            With Converational AI, Talkie is able to learn and adapt to different topics and conversations. 
-                            Talkie also has an emotion system and is able to express a range of emotions with both its facial expressions, movements and verbally. 
-                            This enables Talkie to sympathize with the child and have a emotional reacations to the child's conversations and behaviour.                            
+
+                            Talkie is a robot that interacts and engages a conversation with children. It is small, toylike, <br/>
+                            and has a screen that can show images and videos that is relevant to their conversation. <br/>
+                            Talkie is interactive, allowing it to build relationship and make sure the child stays interested and<br/>
+                             engaged in the conversation. With Converational AI, Talkie is able to learn and adapt to different topics <br/>
+                            and conversations. Talkie also has an emotion system and is able to express a range of emotions with <br/>
+                            both its facial expressions, movements and verbally. This enables Talkie to sympathize with the child <br/> 
+                            and have a emotional reacations to the child's conversations and behaviour.                          
                         </p>         
                         <ul className="project1-keywords"> 
                         <p>Keywords: </p>

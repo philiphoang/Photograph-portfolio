@@ -5,11 +5,9 @@ export default class Education extends Component {
         let resumeData = this.props.resumeData;
         return (
             <section id="education">
-                    <div className="three columns header-col">
-                        <h1>
-                            <span>Education</span>
-                        </h1>
-                    </div>
+                    <h1>
+                        <span>Education</span>
+                    </h1>
                     <div className="education_section">
                         <div className="education_row">
                             {resumeData.education && resumeData.education.map((item, index) => {

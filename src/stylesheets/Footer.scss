@@ -1,24 +1,15 @@
-.social {
-  margin: 0 auto;
-}
-
 .social-container {
-  display: inline;
-}
-
-.social-ul {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  a {
     padding-top: 10px;
     display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
     img {
       width: 5vw;
       height: 5vw;
     }
   }
-}
-
-.social-items {
 }

@@ -1,12 +1,32 @@
+body {
+  margin: 0 auto;
+  width: min(100vw, calc(70% + 100vw));
+}
+
 h1,
 h2,
 h3,
 h4 {
   color: #ff5c65;
+  background: -webkit-linear-gradient(#ff5c65, #4a569d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: clamp(1vw, 3vw, 10vw);
+}
+
+.highlight {
+  background: -webkit-linear-gradient(#ed4264, #ffedbc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight-instagram {
+  background: -webkit-linear-gradient(top left, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2,

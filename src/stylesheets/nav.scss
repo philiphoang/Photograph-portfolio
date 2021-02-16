@@ -5,24 +5,33 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    li {
-      display: inline;
-      font-family: "Fira Sans", sans-serif;
-      font-size: 17px;
-      a {
-        color: #f2f2f2;
-        text-decoration: none;
-        padding: 14px;
-        &:hover {
-          color: #ff5c65;
-        }
-      }
-    }
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+}
+
+nav ul li {
+  display: inline;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+  flex: 1;
+  &:hover {
+    background-color: #555;
+  }
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 14px;
+  &:hover {
+    color: #ff5c65;
   }
 }
 
@@ -32,4 +41,41 @@ nav {
 
 .scroll {
   background-color: #333;
+}
+
+.toggle-menu {
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-menu .hamburger {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .toggle-menu {
+    display: flex;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .nav li a {
+    padding: 0.5rem 1rem;
+  }
 }
