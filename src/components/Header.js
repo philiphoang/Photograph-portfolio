@@ -11,13 +11,9 @@ export default class Header extends Component {
                     <nav id="nav-wrap">
                         {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a> */}
-                        <div className="toggle-menu">
-                            <span className="hamburger"></span>
-                            <span className="hamburger"></span>
-                            <span className="hamburger"></span>
-                        </div>
+         
 
-                        <ul id="nav" className="nav">
+                        <ul id="nav" className="menu">
                             <li><a className="navbar-links" href="#home">Home</a></li>
                             <li><a className="navbar-links" href="#about">About</a></li>
                             <li><a className="navbar-links" href="#education">Education</a></li>

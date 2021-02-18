@@ -72,7 +72,7 @@ export default class Projects extends Component {
                             both its facial expressions, movements and verbally. This enables Talkie to sympathize with the child <br/> 
                             and have a emotional reacations to the child's conversations and behaviour.                          
                         </p>         
-                        <ul className="project1-keywords"> 
+                        {/* <ul className="project1-keywords"> 
                         <p>Keywords: </p>
                            {project1.keywords.map((item, index) => {
                                return (
@@ -83,7 +83,7 @@ export default class Projects extends Component {
                                    </div>
                                )
                            })} 
-                        </ul>
+                        </ul> */}
                     </div>
 
                 </div>
