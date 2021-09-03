@@ -83,6 +83,26 @@ let mainImages = [
             index: 16,
             url: "https://res.cloudinary.com/philipscloud/image/upload/v1627918335/Analog/Originals/R1-03928-0026_02_wq7cak.jpg",
             alt: "Elder couple eating ice cream"
+        },
+        {
+            index: 17,
+            url: "https://res.cloudinary.com/philipscloud/image/upload/v1630664343/Analog/Originals/R1-04609-0009_foapwu.jpg",
+            alt: "Woman sitting by a tree"
+        },
+        {
+            index: 18,
+            url: "https://res.cloudinary.com/philipscloud/image/upload/v1630664343/Analog/Originals/R1-04609-0027_fodkpv.jpg",
+            alt: "Man staring at a seagull"
+        },
+        {
+            index: 19,
+            url: "https://res.cloudinary.com/philipscloud/image/upload/v1630664343/Analog/Originals/R1-04609-0030_wodhur.jpg",
+            alt: "Woman staring at the camera"
+        }, 
+        {
+            index: 20,
+            url: "https://res.cloudinary.com/philipscloud/image/upload/v1630664342/Analog/Originals/R1-04609-0028_h4fy0v.jpg",
+            alt: "Woman taking picture of a seagull"
         }
 ];
 
