@@ -12,8 +12,6 @@ export default class Projects extends Component {
         this.expandImage = this.expandImage.bind(this);
     }
 
-    
-
     expandImage = (imgs) => {
         console.log("Clicked");
         console.log(imgs.src);

@@ -35,13 +35,13 @@ class App extends Component {
   }
 
   handleScroll=()=>{
-    if (window.scrollY > 600) { //Change the value to either viewport or trigger on section
+    if (window.scrollY < 500) { //Change the value to either viewport or trigger on section
       if (!this.setState.className) {
-        document.querySelector(".menu").className = "menu scroll";
+        document.querySelector(".nav").className = "nav scroll";
       }
     }
     else {
-      document.querySelector(".menu").className = "menu";
+      document.querySelector(".nav").className = "nav";
     }
   }
 
